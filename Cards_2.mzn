@@ -2,7 +2,7 @@
 int: N = 7; % numero di carte
 int: M = 4; % max cards
 int: D = 4; % distanza massimi
-array[1..N] of var 1..M: Cards = [1,1,2,2,3,3,4];
+array[1..N] of 1..M: Cards = [1,1,2,2,3,3,4];
 
 % VARIABILI
 array[1..N] of var 1..N: X;  % X[i] = nuova posizione della Cards i-esima 
